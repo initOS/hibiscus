@@ -184,7 +184,7 @@ CREATE TABLE umsatz (
   umsatztyp_id int(5) NULL,
   flags int(1) NULL,
   gvcode varchar(3) NULL,
-  addkey varchar(3) NULL,
+  addkey varchar(4) NULL,
   UNIQUE (id),
   PRIMARY KEY (id)
 );

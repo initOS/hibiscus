@@ -96,8 +96,8 @@ public class UmsatzImpl extends AbstractHibiscusDBObject implements Umsatz
         throw new ApplicationException(i18n.tr("Geschäftsvorfallcode {0} darf maximal 3 Zeichen lang sein",gvCode));
 
       String addKey = this.getAddKey();
-      if (addKey != null && addKey.length() > 3)
-        throw new ApplicationException(i18n.tr("Textschlüssel-Zusatz {0} darf maximal 3 Zeichen lang sein",addKey));
+      if (addKey != null && addKey.length() > 4)
+        throw new ApplicationException(i18n.tr("Textschlüssel-Zusatz {0} darf maximal 4 Zeichen lang sein",addKey));
       
 		}
 		catch (RemoteException e)

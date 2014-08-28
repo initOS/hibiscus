@@ -292,7 +292,7 @@ CREATE TABLE umsatz (
      , umsatztyp_id int(10)
      , flags int(1)
      , gvcode varchar(3)
-     , addkey varchar(3)
+     , addkey varchar(4)
      , UNIQUE (id)
      , PRIMARY KEY (id)
 ) ENGINE=InnoDB;
